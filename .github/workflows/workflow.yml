@@ -29,5 +29,4 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: heroku container:login
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          
